@@ -1,2 +1,2 @@
 # todo-app
-A todo created using react, typescript, express, mongoose
+A todo app created using react, typescript, express, mongoose
