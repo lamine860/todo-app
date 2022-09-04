@@ -1,0 +1,18 @@
+.App {
+  width: 60rem;
+  padding: 32px;
+  border: 1px solid #bcefdd;
+  border-radius: 16px;
+  box-shadow: 0 0 2rem hsla(0, 10%, 100%, 0.2);
+}
+
+.title {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-block-end: 15px;
+}
+
+.card-footer.flex-end {
+  width: 100%;
+  justify-content: flex-end;
+}

@@ -1,0 +1,39 @@
+.card {
+  background-color: var(--dark-gray);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.card-body {
+  margin-block: 5px;
+}
+
+.card-footer {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn.btn-delete {
+  color: hsl(1, 70%, 50%);
+  border: 0.5px solid hsl(1, 70%, 50%);
+}
+.btn.btn-complete {
+  color: hsl(130, 40%, 50%);
+  border: 0.5px solid hsl(130, 40%, 50%);
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: var(--gray);
+}
+.btn.btn-hidden {
+  display: none;
+}

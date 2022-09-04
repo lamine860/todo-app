@@ -1,0 +1,31 @@
+.form {
+  background-color: var(--dark-gray);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  color: var(--light-gray);
+  font-size: 12px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  transition: all 300ms;
+  color: var(--gray);
+}
+
+.form-input:is(:focus) {
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
